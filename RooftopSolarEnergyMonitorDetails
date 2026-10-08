@@ -1,0 +1,17 @@
+public class RooftopSolarEnergyMonitorDetails {
+    public static void main(String[] args) {
+        // Variable declarations with appropriate data types
+        int panelId = 4075;
+        double energyGeneratedKWh = 67.89;
+        int numberOfPanels = 15;
+        char systemStatus = 'A'; // 'A' for Active, 'I' for Inactive
+
+        // Displaying the details
+        System.out.println("Rooftop Solar Energy Monitor Details:");
+        System.out.println("------------------------------------");
+        System.out.println("Panel ID: " + panelId);
+        System.out.println("Energy Generated: " + energyGeneratedKWh + " kWh");
+        System.out.println("Number of Solar Panels: " + numberOfPanels);
+        System.out.println("System Status: " + systemStatus);
+    }
+}
